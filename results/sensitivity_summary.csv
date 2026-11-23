@@ -1,0 +1,18 @@
+city,base_rank,best_rank,worst_rank,scenarios_in_top5,scenarios_in_top10
+"salvador, BA",2,1,4,5,5
+"goiania, GO",1,1,7,4,5
+"fortaleza, CE",4,2,9,4,5
+"recife, PE",5,4,6,4,5
+"brasilia, DF",3,1,11,3,4
+"niteroi, RJ",6,2,12,2,4
+"teresina, PI",7,3,14,2,4
+"maceio, AL",11,5,28,1,2
+"belem, PA",8,6,27,0,4
+"vila velha, ES",9,9,13,0,3
+"campo grande, MS",10,10,19,0,3
+"cuiaba, MT",12,6,24,0,1
+"sao luis, MA",13,8,32,0,1
+"rio de janeiro, RJ",14,7,31,0,1
+"belo horizonte, MG",18,8,26,0,1
+"petropolis, RJ",21,7,32,0,1
+"curitiba, PR",23,10,31,0,1

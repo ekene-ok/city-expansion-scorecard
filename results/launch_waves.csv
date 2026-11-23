@@ -1,0 +1,16 @@
+launch_rank,city,launch_score,launch_wave,launch_mode,headline_reason,delivered_orders,yoy_growth,same_state_seller_share,avg_delivery_days,late_rate,avg_review_score,scenarios_in_top5
+1,"goiania, GO",79.6,Wave 1: launch next,Standalone launch,Fastest-growing demand,656,2.294,0.0192,15.5,0.1159,4.08,4
+2,"salvador, BA",78.1,Wave 1: launch next,Standalone launch,Large existing demand,1188,1.516,0.0155,19.3,0.1751,3.8,5
+3,"brasilia, DF",76.5,Wave 1: launch next,Standalone launch,Large existing demand,2065,1.982,0.0261,12.9,0.0712,4.14,3
+4,"fortaleza, CE",75.9,Wave 1: launch next,Standalone launch,"Slow, unreliable delivery today",614,1.43,0.0058,20.5,0.1808,3.91,4
+5,"recife, PE",75.1,Wave 1: launch next,Standalone launch,Underserved by local sellers,589,1.651,0.0092,18.4,0.1341,4.01,4
+6,"niteroi, RJ",74.4,Wave 2: prepare,"Extend from rio de janeiro, RJ",Fastest-growing demand,824,2.17,0.0794,14.5,0.125,4.01,2
+7,"teresina, PI",73.5,Wave 2: prepare,Standalone launch,Underserved by local sellers,270,1.661,0.0,20.8,0.2222,3.91,2
+8,"belem, PA",69.9,Wave 2: prepare,Standalone launch,Underserved by local sellers,428,0.991,0.0,21.8,0.0981,3.94,0
+9,"vila velha, ES",69.3,Wave 2: prepare,"Extend from vitoria, ES",Underserved by local sellers,325,1.672,0.0056,17.0,0.1538,3.95,0
+10,"campo grande, MS",68.0,Wave 2: prepare,Standalone launch,Underserved by local sellers,312,1.486,0.0,14.8,0.1218,4.21,0
+11,"maceio, AL",67.5,Wave 3: monitor,Standalone launch,Underserved by local sellers,235,1.429,0.0,25.6,0.2979,3.73,1
+12,"cuiaba, MT",65.5,Wave 3: monitor,Standalone launch,High order value,242,2.0,0.0069,18.4,0.0744,3.96,0
+13,"sao luis, MA",64.1,Wave 3: monitor,Standalone launch,"Slow, unreliable delivery today",334,1.146,0.027,20.4,0.2246,3.79,0
+14,"rio de janeiro, RJ",63.7,Wave 3: monitor,Standalone launch,Large existing demand,6574,1.103,0.0798,14.7,0.1186,4.0,0
+15,"nova iguacu, RJ",62.5,Wave 3: monitor,"Extend from rio de janeiro, RJ","Slow, unreliable delivery today",423,1.632,0.0698,14.0,0.1348,3.9,
