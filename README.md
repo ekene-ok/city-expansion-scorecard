@@ -34,11 +34,13 @@ The full 15-city sequence, with launch waves and launch mode (standalone or exte
 
 ## Charts
 
-![What drives each top-10 city's launch score](charts/01_top10_score_drivers.png)
+![Five cities rank top 5 however the criteria are weighted](charts/01_launch_ranking.png)
 
-![Cities without nearby sellers wait longer for their orders](charts/02_supply_vs_delivery.png)
+The top five are not just the highest scores. They stay on top when the weights change, while the next-best cities (Niteroi, Teresina) only make the top 5 in two of five scenarios.
 
-The second chart shows the structural problem: cities in Sao Paulo state (right) get most items from in-state sellers and wait about 8 days, while cities with no regional supply (left) wait twice as long. Wave 1 cities (blue) combine that gap with large, fast-growing demand.
+![Customers in these five cities wait up to 2.5x longer than in Sao Paulo](charts/02_delivery_gap.png)
+
+That is the opportunity: customers in these cities already order a lot and keep ordering more, but almost everything ships from out of state, so deliveries take two to three weeks.
 
 ## How the score works
 
