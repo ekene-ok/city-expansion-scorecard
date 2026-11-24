@@ -1,0 +1,6 @@
+city,orders_per_year_2018_run_rate,same_state_share_today,orders_shifted,freight_saved_brl_per_year,bad_reviews_avoided_per_year,days_saved_per_shifted_order
+"brasilia, DF",1790.0,0.026,447.0,5176.0,17.0,7.2
+"salvador, BA",974.0,0.015,243.0,2816.0,9.0,7.2
+"goiania, GO",588.0,0.019,147.0,1701.0,6.0,7.2
+"recife, PE",501.0,0.009,125.0,1449.0,5.0,7.2
+"fortaleza, CE",467.0,0.006,117.0,1349.0,5.0,7.2

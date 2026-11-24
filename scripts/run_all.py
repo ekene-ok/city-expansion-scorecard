@@ -16,6 +16,8 @@ OUT.mkdir(exist_ok=True)
 EXPORTS = [
     "dq_status_mix", "dq_monthly_volume", "dq_missing_delivery_dates",
     "city_metrics", "city_ranking", "sensitivity_summary", "launch_waves",
+    "review_by_delivery_time", "late_review_gap_within_city", "repeat_by_first_order",
+    "same_state_effect", "launch_city_prize",
 ]
 
 con = duckdb.connect(str(ROOT / "olist.duckdb"))

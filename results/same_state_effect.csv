@@ -1,0 +1,3 @@
+same_state,orders,freight_per_order_brl,avg_delivery_days,late_rate,bad_review_rate
+false,61280,26.96,15.0,0.0912,0.1415
+true,34280,15.39,7.8,0.0604,0.1027
