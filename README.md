@@ -35,7 +35,7 @@ The full 15-city sequence, with launch waves and launch mode (standalone or exte
 
 ## Charts
 
-![Five cities rank top 5 however the criteria are weighted](charts/01_launch_ranking.png)
+![Five cities come out on top however the criteria are weighted](charts/01_launch_ranking.png)
 
 The top five are not just the highest scores. They stay on top when the weights change, while the next-best cities (Niteroi, Teresina) only make the top 5 in two of five scenarios.
 

@@ -51,8 +51,8 @@ w1 = set(pd.read_csv(RES / "launch_waves.csv").query("launch_wave.str.startswith
 fig, ax = b.chart(height=5.4, label_in=1.45)
 b.hbar(ax, r.city.map(pretty).tolist(), r.scenarios_in_top5.tolist(), {i for i, c in enumerate(r.city) if c in w1},
        lambda v: f"{v:.0f} of 5", HIGHLIGHT, xmax=5)
-b.titles(fig, "Five cities rank top 5 however the criteria are weighted",
-         "Weighting scenarios, out of 5, in which each city ranks in the top 5. Top 10 cities shown")
+b.titles(fig, "Five cities come out on top however the criteria are weighted",
+         "Of 5 ways to weight demand, growth, delivery pain and order value: how many rank each city top 5")
 b.credit(fig, SRC)
 b.save(fig, OUT / "01_launch_ranking.png")
 
