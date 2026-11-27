@@ -1,6 +1,37 @@
 # City Expansion Scorecard: Where Should a Marketplace Launch Next?
 
-A SQL-first analysis of ~96,000 real marketplace orders that ranks 68 cities on where a local launch (local seller recruitment plus local fulfilment) would create the most value, then turns the ranking into a launch sequence.
+**In one line:** using about 96,000 real orders from a Brazilian online marketplace, I ranked 68 cities and recommend five to launch next, starting with local sellers rather than warehouses.
+
+Olist connects small online sellers with shoppers across Brazil. Almost every order ships long-distance, so customers far from the big seller hubs wait a long time. If Olist set up local operations in five new cities, **which five, and how should it start?**
+
+## What I found
+
+- **Five cities stand out:** Goiania, Salvador, Brasilia, Fortaleza and Recife. Their orders more than doubled in a year (up 143% to 229%)
+- **Their customers wait the longest.** Deliveries take 13 to 20 days, against 8 in Sao Paulo. Under 3% of what they buy comes from sellers in their own state
+- **The picks hold up.** All five stay near the top however you weight demand, growth and delivery problems
+- **Late deliveries hurt reviews, not repeat buying.** Late orders get a 1 or 2 star review 57% of the time, against 10% for on-time ones
+
+![Five cities come out on top however the criteria are weighted](charts/01_launch_ranking.png)
+
+**How to read it:** I ranked the cities five different ways. Each bar shows how many of those five rankings put a city in the top 5. The blue cities are the picks.
+
+![Customers in these five cities wait up to 2.5x longer than in Sao Paulo](charts/02_delivery_gap.png)
+
+## What I'd do
+
+1. Launch in the five cities by recruiting local sellers first, which cuts each moved delivery by about 7 days and saves on freight
+2. Treat the Rio de Janeiro area as one second-wave launch, since three of its cities rank well together
+3. Wait to build warehouses until a city's order volume is several times higher
+
+## Words used here
+
+- **Launch score:** one number per city combining demand, growth, delivery problems and missing local sellers
+- **Marketplace:** a platform connecting many sellers with many buyers
+
+<details>
+<summary><b>The full analysis: method, detail and how to run it</b> (for technical readers)</summary>
+
+## Tools and data
 
 Built with **DuckDB SQL** (CTEs, window functions, scenario modelling) and Python for orchestration and charts.
 
@@ -35,11 +66,7 @@ The full 15-city sequence, with launch waves and launch mode (standalone or exte
 
 ## Charts
 
-![Five cities come out on top however the criteria are weighted](charts/01_launch_ranking.png)
-
 The top five are not just the highest scores. They stay on top when the weights change, while the next-best cities (Niteroi, Teresina) only make the top 5 in two of five scenarios.
-
-![Customers in these five cities wait up to 2.5x longer than in Sao Paulo](charts/02_delivery_gap.png)
 
 That is the opportunity: customers in these cities already order a lot and keep ordering more, but almost everything ships from out of state, so deliveries take two to three weeks.
 
@@ -161,3 +188,5 @@ The pipeline runs in a few seconds on a laptop.
 ## Data source and licence
 
 Data: [Olist public e-commerce dataset](https://github.com/olist/work-at-olist-data), released by Olist under the MIT License. Code in this repository is also MIT licensed.
+
+</details>
